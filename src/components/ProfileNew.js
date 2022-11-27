@@ -30,7 +30,7 @@ const ProfileNew = () => {
 
     async function populateInfo() {
 
-        const req = await fetch('http://localhost:8000/api/user', {
+        const req = await fetch('https://busy-pink-earthworm-cap.cyclic.app/api/user', {
             headers: {
                 'x-access-token': localStorage.getItem('token')
             },
@@ -58,7 +58,7 @@ const ProfileNew = () => {
 
     async function populateBalance() {
 
-        const req = await fetch('http://localhost:8000/api/balance', {
+        const req = await fetch('https://busy-pink-earthworm-cap.cyclic.app/api/balance', {
             headers: {
                 'x-access-token': localStorage.getItem('token')
             },
@@ -85,7 +85,7 @@ const ProfileNew = () => {
 
     async function getUpdatedFd() {
 
-        const req = await fetch('http://localhost:8000/api/updatedfd', {
+        const req = await fetch('https://busy-pink-earthworm-cap.cyclic.app/api/updatedfd', {
             headers: {
                 'x-access-token': localStorage.getItem('token')
             },
