@@ -15,7 +15,7 @@ const Deposit = () => {
     async function updateBalance(event) {
         event.preventDefault()
 
-        const req = await fetch('http://localhost:8000/api/balance', {
+        const req = await fetch('https://busy-pink-earthworm-cap.cyclic.app/balance', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
