@@ -15,7 +15,7 @@ const Login = () => {
     const loginUser = async (event) => {
         event.preventDefault()
 
-        const response = await fetch("https://busy-pink-earthworm-cap.cyclic.app/login", {
+        const response = await fetch("https://busy-pink-earthworm-cap.cyclic.app/api/login", {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'
