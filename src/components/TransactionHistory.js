@@ -21,7 +21,7 @@ const TransactionHistory = () => {
     }
 
     async function getTransactions() {
-        const req = await fetch('http://localhost:8000/api/transaction', {
+        const req = await fetch('https://busy-pink-earthworm-cap.cyclic.app/api/transaction', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
