@@ -52,7 +52,7 @@ const Transfer = () => {
             console.log(err);
         }
 
-        const req = await fetch('http://localhost:8000/api/transaction', {
+        const req = await fetch('https://busy-pink-earthworm-cap.cyclic.app/api/transaction', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
