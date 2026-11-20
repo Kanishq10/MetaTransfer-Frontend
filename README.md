@@ -1,35 +1,56 @@
-# MetaTransfer-Frontend
+# MetaTransfer Frontend
 
-Source code and project resources for MetaTransfer-Frontend.
+**Portfolio project** · The React frontend for a transfer-management application.
 
 ## Overview
 
-This repository contains the source code and resources for **MetaTransfer-Frontend**.
+The React frontend for a transfer-management application.
 
-## Technologies
+## Technology Stack
 
-- CSS
-- HTML
-- JavaScript
+- `Node.js`
+- `React`
+- `HTML`
+- `CSS`
+- `JavaScript`
 
-## Getting Started
+## How the Repository Works
 
-```bash
-git clone https://github.com/Kanishq10/MetaTransfer-Frontend.git
-cd MetaTransfer-Frontend
+```mermaid
+flowchart LR
+    N0["Route / Component<br/> Receive UI context"]
+    N1["Data / State<br/> Resolve props or application state"]
+    N0 --> N1
+    N2["Render<br/> Display reusable interface"]
+    N1 --> N2
 ```
 
-Review the project files and configuration to install dependencies and start the application.
+| Stage | Responsibility |
+|---|---|
+| **Route / Component** | Receive UI context |
+| **Data / State** | Resolve props or application state |
+| **Render** | Display reusable interface |
 
-## Repository Contents
+## Concepts Covered
+
+- Component-based UI
+- State and props
+- Event handling
+- Reusable layout
+- Client-side rendering
+
+## Repository Map
 
 - `.gitignore`
-- `README.md`
 - `package-lock.json`
 - `package.json`
 - `public`
 - `src`
 
-## Contributing
+## Recruiter Summary
 
-Contributions are welcome. Fork the repository, create a feature branch, and open a pull request.
+This repository demonstrates practical implementation skills, repository organization, and an end-to-end understanding of the project workflow. It is suitable as a focused example of applied software or data work.
+
+---
+
+<sub>Documentation is concise and project-focused; source code was not modified.</sub>
